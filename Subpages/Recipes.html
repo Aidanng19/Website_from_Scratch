@@ -1,37 +1,278 @@
+<head> <!-- header -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aidan's Homepage</title>
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
 
 
 
-<div class="main">
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container"> 
+
+      <nav class="navbar">
+
+        <a href="#"> <!-- Changes the header's logo depending on light or dark mode -->
+          <img src="../assets/images/logo-light.png" alt="SimpleBlog logo" width="150" class="logo-light">
+          <img src="../assets/images/logo-dark.png" alt="SimpleBlog logo" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="../Subpages/Recipes.html" class="nav-link">Recipes</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav"> <!-- What does this do?-->
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Where is this</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accessibility</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
 
       <div class="container">
 
-        <div class="List_of_Recipes">
+        <div class="left">
+          
+          <h1 class="h1">
+            <b>Recipes</b>
+          </h1>
 
-          <h2 class="h2">List of Recipes</h2>
+          <p class="h3">
+            The people who write online recipes as a full-time job are terrible at their job. So I made this as my own resource.
+          </p>
 
-          <div class="recipe-group">
+        </div>
 
-            <div class="recipe-card">
+        <div class="right">
 
-              <div class="recipe-banner">
-                <img src="../assets/images/Ghibli_Pan.png" alt="Temporary Image of cooking"
-                  width="250" class="recipe-img">
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/hero.png" alt="A picture of myself should be here" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+    <div class="main">
+
+          <div class="container">
+
+            <div class="List_of_Recipes">
+
+              <h2 class="h2">List of Recipes</h2>
+
+              <div class="recipe-group">
+
+                <div class="recipe-card">
+
+                  <div class="recipe-banner">
+                    <img src="../assets/images/Ghibli_Pan.png" alt="Temporary Image of cooking"
+                      width="250" class="recipe-img">
+                  </div>
+
+                  <div class="blog-content-wrapper">
+
+                    <button class="blog-topic text-tiny" href="../Recipe_Folder/Popcorn_Chicken.md">Popcorn Chicken</button>
+
+                    <h3>
+                      <a href="../Recipe_Folder/Popcorn_Chicken.md" class="h3">
+                        Link to Popcorn Chicken
+                      </a>
+                    </h3>
+
+                    <p class="recipe-text">
+                      What do I replace this with?
+                    </p>
+
+                  </div>
+
+                </div>
               </div>
+          </div>
+          </div>
+    </div>
+  </main>
+</body>
 
-              <div class="blog-content-wrapper">
+  <!--
+    - #FOOTER
+  -->
 
-                <button class="blog-topic text-tiny" href="../Recipe_Folder/Popcorn_Chicken.md">Popcorn Chicken</button>
+  <footer>
 
-                <h3>
-                  <a href="../Recipe_Folder/Popcorn_Chicken.md" class="h3">
-                    Link to Popcorn Chicken
-                  </a>
-                </h3>
+    <div class="container">
 
-                <p class="recipe-text">
-                  What do I replace this with?
-                </p>
+      <div class="wrapper">
 
-              </div>
+        <a href="#" class="footer-logo">
+          <img src="../assets/images/logo-light.png" alt="SimpleBlog Logo" width="150" class="logo-light">
+          <img src="../assets/images/logo-dark.png" alt="SimpleBlog Logo" width="150" class="logo-dark">
+        </a>
 
-            </div>
+        <p class="footer-text">
+          Learn about Web accessibility, Web performance, and Database management.
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Advertise with us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2024 <a href="#">SimpleBlog</a>
+    </p>
+
+  </footer>

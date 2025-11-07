@@ -17,7 +17,8 @@ Onion Powder
 
 ## Instructions
 1. Cut the chicken breast into 1-inch cubes.
-2. Crack an egg and beat it.
-3. Coat the chicken in egg.
-4. Mix the coated chicken with the dry seasoning.
-5. Preheat the oven to 400F and bake for 15 minutes, flipping halfway. 
+2. Season the chicken with the dry seasoning.
+3. Dip the chicken in flour.
+4. Dredge the chicken in egg.
+5. Dip the chicken in flour again.
+6. Fry chicken in 2-inches of oil for 7-8 minutes.

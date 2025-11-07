@@ -29,10 +29,10 @@ White vinegar
 5. Rub the dry seasoning on the meat and between the cuts.
 6. Flip the pork belly over and let it dry for 10 minutes.
 7. Salt the surface and wait 10 more minutes.
-8. This will draw out the moisture. Scrape the salt and moisture off with a knife.
+8. This will draw out the moisture. Scrape the salt and moisture off with a knife. (Try leaving the salt on this time)
 9. Brush the surface with white vinegar and place in the refridgerator for 12-24 hours.
-10. Cook the pork belly in the oven at 225F for 2.5 hours.
-11. Broil the surface on low for 10 minutes or until the surface crisps.
+10. Cook the pork belly in the oven at 250F for 30 minutes.
+11. Then cook at 400F for 30-40 minutes. 
 12. Take the meat out and let it rest for 30 minutes, then cut into it.
 
 # Potatoes
