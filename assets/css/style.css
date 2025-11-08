@@ -392,7 +392,7 @@ header .btn-group {
   text-align: center;
 }
 
-.blog-card-group { margin-bottom: 3rem; }
+.blog-card-group { margin-bottom: 3rem; } /* space under each divider */
 
 .blog-card {
   background: var(--background-primary);
@@ -401,6 +401,17 @@ header .btn-group {
   border-radius: 10px; /* rounding of the margins around each container */
   box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.05);
   transition: 0.25s ease;
+}
+
+.recipe-card {
+  background: var(--background-primary);
+  padding: 10px;
+  margin-bottom: 1rem; /* size of margin under each container */
+  border-radius: 10px; /* rounding of the margins around each container */
+  box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.05);
+  transition: 0.25s ease;
+  position: absolute;
+  bottom:0;
 }
 
 .blog-card:hover {
