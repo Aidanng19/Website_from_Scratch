@@ -12,9 +12,6 @@ title: Artisan Bread
 2 tlbs butter\
 Optional: Chocolate chunks
 
-https://www.withspice.com/blog/chocolate-chunk-artisan-bread/
-
-
 ## Instructions
 1. In a large bowl, mix the ingredients with a large wooden spoon until the dough is formed. Beat a butter and mix it in.
 2. Cover the bowl with plastic wrap and allow the dough to rise for 8-24 hours in the refridgerator.
