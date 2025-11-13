@@ -172,8 +172,14 @@
 
               <h2 class="h2">List of Recipes</h2>
 
-              <input type="text" id="search_input" onkeyup="search_bar()" placeholder="Search for names..."> <!-- Search Bar -->
+              <input type="text" id="search_input" placeholder="Search for names..."> <!-- Search Bar -->
+              <ul id="list">
+                <li>banana</li>
+                <li>apple</li>
 
+
+
+              </ul>
               <div class="blog-card-group"> 
 
                 <!-- 
@@ -216,9 +222,9 @@
                   <div class="blog-content-wrapper">
 
                     <h3>
-                      <a href="../Recipe_Folder/Siu_Yuk.md" class="h3">
+                      <li><a href="../Recipe_Folder/Siu_Yuk.md" class="h3">
                         Siu Yuk
-                      </a>
+                      </a></li>
                     </h3>
 
                     <p class="blog-text">
@@ -243,9 +249,9 @@
                   <div class="blog-content-wrapper">
 
                     <h3>
-                      <a href="../Recipe_Folder/Artisan_Bread.md" class="h3">
+                      <li><a href="../Recipe_Folder/Artisan_Bread.md" class="h3">
                         Artisan Bread
-                      </a>
+                      </a></li>
                     </h3>
 
                     <p class="blog-text">
@@ -270,9 +276,9 @@
                   <div class="blog-content-wrapper">
 
                     <h3>
-                      <a href="../Recipe_Folder/Loco_Moco.md" class="h3">
+                      <li><a href="../Recipe_Folder/Loco_Moco.md" class="h3">
                         Loco Moco
-                      </a>
+                      </a></li>
                     </h3>
 
                     <p class="blog-text">
@@ -297,9 +303,9 @@
                   <div class="blog-content-wrapper">
 
                     <h3>
-                      <a href="../Recipe_Folder/Pork_Tenderloin.md" class="h3">
+                      <li><a href="../Recipe_Folder/Pork_Tenderloin.md" class="h3">
                         Pork Tenderloin
-                      </a>
+                      </a></li>
                     </h3>
 
                     <p class="blog-text">
@@ -395,6 +401,13 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!--
+    dynamic search bar
+  -->
+  <script src="../assets/js/search_bar.js"></script>
+
+
 
 </body>
 </html>

@@ -1,21 +1,14 @@
-//<script>
-function search_bar() {
-  // Declare variables
-  var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById('search_input');
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("recipe-card");
-  li = ul.getElementsByTagName('li');
+  //Define local variables
+  const searchInput = document.getElementById("search_input");
+  const myList = document.getElementById('list');
 
-  // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    txtValue = a.textContent || a.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
-  }
-}
-//</script>
+  // if an element doesn't match the input letter, filter it out
+  searchInput.addEventListener('input', ()=>{
+      const filterValue = searchInput.value.toLowerCase();
+      const listItems = myList.getElementsByTagName("li");
+
+      Array.from(listItems).forEach((item)=>{
+        const text = item.textContent.toLowerCase();
+        item.style.display = text.includes(filterValue)? '' : 'none';
+      })
+  })
