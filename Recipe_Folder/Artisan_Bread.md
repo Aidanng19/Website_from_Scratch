@@ -1,5 +1,4 @@
 ---
-sidebar_position: 10
 slug: Artisan_Bread
 title: Artisan Bread
 ---
