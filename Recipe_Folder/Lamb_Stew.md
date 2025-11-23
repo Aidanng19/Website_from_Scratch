@@ -5,10 +5,10 @@ title: Lamb Stew
 ---
 
 ## Ingredients
-Lamb Chunks\
-Carrots\
-Potatoes\
-Onions\
+1 qt Lamb Chunks\
+4 Carrots\
+2 Potatoes\
+1 Onion\
 Celery
 
 # Dry Seasonings
