@@ -7,11 +7,11 @@ title: Artisan Bread
 3.25 cups All-Purpose Flour\
 2.25 tsp Yeast\
 2 tsp Kosher Salt\
-1.5 cups Warm Water
+1.5 cups Warm Water\
+3 tlbs butter\
+2 tsp sugar
 
 # Optional
-3 tlbs butter\
-2 tsp sugar\
 1 tsp garlic powder
 
 # Post-proof additives
@@ -20,7 +20,7 @@ Apples\
 1/4 cup Parmesan cheese
 
 ## Instructions
-1. In a large bowl, mix the ingredients with a large wooden spoon until the dough is formed. Beat a butter and mix it in.
+1. In a large bowl, mix the ingredients (with garlic powder) with a large wooden spoon until the dough is formed. Beat a butter and mix it in.
 2. Cover the bowl with plastic wrap and allow the dough to rise for 8-24 hours in the refridgerator or in a cold environment <100F.
 3. Remove the dough from the refridgerator and allow it to warm up to room temperature.
 4. Flour the surface of the dough and fold it on itself a few times before forming it into your desired shape.

@@ -186,6 +186,12 @@ html {
   padding: 0 15px;
 }
 
+.recipe_container {
+  margin-inline: auto;
+  margin: auto; /* fallback for margin-inline */
+  padding: 0 15px;
+}
+
 .btn {
   min-width: 10rem;
   border-radius: 100px;
