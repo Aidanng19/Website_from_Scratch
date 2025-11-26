@@ -186,7 +186,7 @@ html {
   padding: 0 15px;
 }
 
-.recipe_container {
+.recipe_container { /* this doesn't include the margins on the left and right, so I can use the whole page */
   margin-inline: auto;
   margin: auto; /* fallback for margin-inline */
   padding: 0 15px;
@@ -666,7 +666,7 @@ footer .wrapper { text-align: center; }
    * REUSED STYLE 
    */
 
-  .container { padding: 0 30px; }
+  .container { padding: 0 30px; } /* top/bottom has no padding, left/right has 30px padding */
 
 
 
@@ -967,7 +967,11 @@ footer .wrapper { text-align: center; }
     gap: 60px;
   }
 
-
+  .main .recipe_container {
+    display: grid;
+    grid-template-columns: 50fr 2fr;
+    gap: 60px;
+  }
 
   /**
    * ASIDE 
