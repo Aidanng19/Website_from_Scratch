@@ -11,12 +11,12 @@ title: Bolo Bao
 1/4 cup water
 
 # Dough ingredients
-2.5 cups All-Purpose Flour\
+3.25 cups All-Purpose Flour\
 2.25 tsp Yeast\
 2 tsp Kosher Salt\
 1/4 cup sugar\
 1 egg\
-1/2 cup room temp milk\
+1.25 cup room temp milk\
 4 tbsp softened butter
 
 ## Instructions
