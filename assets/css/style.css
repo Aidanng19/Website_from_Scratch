@@ -89,7 +89,8 @@
 
 a { text-decoration: none; }
 
-li { list-style: none; }
+li { list-style: none; } /* removes automatic numbering */
+
 
 img, button { display: block; }
 
@@ -173,9 +174,6 @@ html {
 .text-tiny { font-size: var(--fs-5); }
 
 
-
-
-
 /*-----------------------------------*\ 
   # Define container/button appearance
 \*-----------------------------------*/
@@ -186,11 +184,6 @@ html {
   padding: 0 15px;
 }
 
-.recipe_container { /* this doesn't include the margins on the left and right, so I can use the whole page */
-  margin-inline: auto;
-  margin: auto; /* fallback for margin-inline */
-  padding: 0 15px;
-}
 
 .btn {
   min-width: 10rem;
@@ -401,7 +394,7 @@ header .btn-group {
 .recipes .h2 {
   line-height: 1.3; /* space between lines in a paragraph */
   margin-bottom: 3rem; /* size of margin under the h2 blog header */
-  width: 1400px;
+  max-width: 14000px;
   text-align: center;
 }
 
@@ -429,12 +422,18 @@ header .btn-group {
   bottom: 0;
 }
 
+
 /*#recipe-card li a:hover:not(.header) {
   background-color: #eee; /* Add a hover effect to all links, except for headers 
 }*/
 
 
 .blog-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.1);
+}
+
+.recipe-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.1);
 }
@@ -532,9 +531,55 @@ header .btn-group {
 
 .aside { display: none; }
 
+/*-----------------------------------*\ 
+  # Recipe formatting
+\*-----------------------------------*/
 
+.recipe_container { /* this doesn't include the margins on the left and right, so I can use the whole page */
+  margin-inline: auto;
+  margin: auto; /* fallback for margin-inline */
+  padding: 0 15px;
+}
 
+.recipe_header  {
+  text-align: left;
+  font-size: var(--fs-1);
+  font-weight: 900;
+  margin-left: 200px;
+}
 
+.recipe_subheader  {
+  text-align: left;
+  font-size: var(--fs-1);
+  font-weight: 500;
+  margin-left: 200px;
+  font-style: italic;
+}
+
+.recipe_ingredients { /* total div is the width of the screen */
+  /*background: pink;*/
+  padding: 10px; /* space between content and edge of card */
+  text-align: center;
+  display: inline-block;
+  margin: 16px 32px 16px 32px; /* top right bottom left, 16px = 1rem. This is in px */ 
+  width: 100%;
+  position: relative;
+}
+
+.recipe_ingredients div{ /* individual divs in recipe is only 10% of the total width */
+  background: yellow;
+  padding: 10px; /* space between content and edge of card */
+  text-align: center;
+  display: inline-block;
+  margin: 16px 32px 16px 32px; /* top right bottom left, 16px = 1rem. This is in px */ 
+  width: 20%;
+  position: relative;
+}
+
+.recipe_divider { /* might be outdated */
+  border-left: 6px black;
+  height: 500px;
+}
 
 /*-----------------------------------*\ 
   #FOOTER
@@ -623,7 +668,18 @@ footer .wrapper { text-align: center; }
   .blog-card-banner {
     display: block;
     overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
     border-radius: 5px;
+  }
+
+  .recipe_image {
+    display: block;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: auto; /* centers the image */
+    width: 50%;
   }
 
   .blog-banner-img {
@@ -632,7 +688,7 @@ footer .wrapper { text-align: center; }
     object-fit: cover;
   }
 
-    .recipe-banner-img {
+  .recipe-banner-img {
     width:  250px;
     height: 250px;
     object-fit: cover;
@@ -969,8 +1025,8 @@ footer .wrapper { text-align: center; }
 
   .main .recipe_container {
     display: grid;
-    grid-template-columns: 50fr 2fr;
     gap: 60px;
+}
   }
 
   /**

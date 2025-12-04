@@ -13,7 +13,7 @@ title: Bolo Bao
 # Dough ingredients
 2.5 cups All-Purpose Flour\
 2.25 tsp Yeast\
-1/2 tsp Kosher Salt\
+2 tsp Kosher Salt\
 1/4 cup sugar\
 1 egg\
 1/2 cup room temp milk\
@@ -31,3 +31,6 @@ title: Bolo Bao
 1. There are different ingredients for this. Lets start with the dough first. 
 
 Bake at 350F for 35-40 minutes.
+
+## Comments
+12/2/2025: Attempted to make the dough today. Surface burned faster than normal. 1/2 tsp wasn't enough. The bread doesn't have enough flavor and I can't taste the egg at all. I'm increasing this to 2 tsp for next time. 
